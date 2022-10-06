@@ -5,6 +5,10 @@ class Genero:
     @property
     def descricao_genero(self):
         return self.__descricao_genero
+
+    @descricao_genero.setter
+    def descricao_genero(self, valor):
+        self.__descricao_genero = valor
     
     def __str__(self) -> str:
         return self.descricao_genero
